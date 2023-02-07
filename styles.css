@@ -138,13 +138,17 @@
   
   display: inline-block;
   animation-name: fadeinup;
- 
+  animation-duration: 2s;
+  
   
 }
 #contents2.active{
   
   display: inline-block;
-  animation-name: fadeinup;
+  animation-name:fadeinup;
+  animation-duration: 2s;
+  
+  
  
   
   
@@ -152,7 +156,11 @@
 #contents3.active{
  
   display: inline-block;
-  animation-name: fadeinup;
+  animation-name:fadeinup;
+  animation-duration: 2s;
+  
+  
+ 
   
   
 }
@@ -163,22 +171,31 @@
 #contents4.active{
  
   display: inline-block;
-  animation-name: fadeinup;
+  animation-name:fadeinup;
+  animation-duration: 2s;
+  
+  
+  
   
 }
 #contents5.active{
   
   display: inline-block;
   
-  animation-name: fadeinup;
+  animation-name:fadeinup;
+  animation-duration: 2s;
+  
+ 
   
   
 }
 #contents6.active{
   
   display: inline-block;
-  animation-name: fadeinup;
+  animation-name:fadeinup;
+  animation-duration: 2s;
   
+ 
    
 }
 
