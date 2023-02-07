@@ -6,14 +6,21 @@ const elements3 = document.querySelector("#contents3")
 const elements4 = document.querySelector("#contents4")
 const elements5 = document.querySelector("#contents5")
 const elements6 = document.querySelector("#contents6")
+const elements = document.querySelector(".elements")
+
 hamburger.addEventListener("click",()=>{
     upabove.classList.toggle("active")
-    elements1.classList.toggle("active")
-    elements2.classList.toggle("active")
-    elements3.classList.toggle("active")
-    elements4.classList.toggle("active")
-    elements5.classList.toggle("active")
-    elements6.classList.toggle("active")
+    setTimeout(()=>{
+        elements.classList.toggle("active")
+        elements1.classList.toggle("active")
+        elements2.classList.toggle("active")
+        elements3.classList.toggle("active")
+        elements4.classList.toggle("active")
+        elements5.classList.toggle("active")
+        elements6.classList.toggle("active")
+
+    },2000)
+   
     
 })
 

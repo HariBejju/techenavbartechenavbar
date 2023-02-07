@@ -84,7 +84,7 @@
 }
 
 .elements{
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -134,10 +134,14 @@
   width: auto;
 }
 
+.elements.active{
+  display: flex;
+}
 #contents1.active{
   
   display: inline-block;
   animation-name: fadeinup;
+  /* animation-delay: 2s; */
   animation-duration: 2s;
   
   
